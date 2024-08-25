@@ -11,7 +11,17 @@ void create_account(struct Account account);
 
 int main() {
     struct Account account;
+    int choice;
+
+    printf("1. Create account\n");
+    printf("2. Login\n");
+    printf("3. Exit\n");
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
+    
+    if(choice == 1) {
     create_account(account);
+    }
     return 0;
 }
 

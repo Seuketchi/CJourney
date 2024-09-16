@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "account_system": "c"
+        "account_system": "c",
+        "string.h": "c",
+        "algorithm": "c"
     }
 }
